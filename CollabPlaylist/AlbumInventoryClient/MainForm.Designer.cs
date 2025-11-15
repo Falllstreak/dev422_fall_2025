@@ -31,209 +31,231 @@ namespace AlbumInventoryClient
         /// </summary>
         private void InitializeComponent()
         {
-            dgvAlbums = new DataGridView();
-            btnAdd = new Button();
-            btnUpdate = new Button();
-            btn_Delete = new Button();
-            btn_Refresh = new Button();
-            lblId = new Label();
-            lblTitle = new Label();
-            lblArtist = new Label();
-            lblGenre = new Label();
-            lblYear = new Label();
-            txtId = new TextBox();
-            txtTitle = new TextBox();
-            txtArtist = new TextBox();
-            txtGenre = new TextBox();
-            txtYear = new TextBox();
-            chkAvailable = new CheckBox();
-            lblStatus = new Label();
-            ((System.ComponentModel.ISupportInitialize)dgvAlbums).BeginInit();
-            SuspendLayout();
+            this.dgvAlbums = new System.Windows.Forms.DataGridView();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_Refresh = new System.Windows.Forms.Button();
+            this.lblId = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblArtist = new System.Windows.Forms.Label();
+            this.lblGenre = new System.Windows.Forms.Label();
+            this.lblYear = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
+            this.txtArtist = new System.Windows.Forms.TextBox();
+            this.txtGenre = new System.Windows.Forms.TextBox();
+            this.txtYear = new System.Windows.Forms.TextBox();
+            this.chkAvailable = new System.Windows.Forms.CheckBox();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.button_Return = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlbums)).BeginInit();
+            this.SuspendLayout();
             // 
             // dgvAlbums
             // 
-            dgvAlbums.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAlbums.Location = new Point(387, 24);
-            dgvAlbums.Name = "dgvAlbums";
-            dgvAlbums.RowHeadersWidth = 62;
-            dgvAlbums.Size = new Size(1017, 463);
-            dgvAlbums.TabIndex = 0;
-            dgvAlbums.SelectionChanged += dgvAlbums_SelectionChanged;
+            this.dgvAlbums.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlbums.Location = new System.Drawing.Point(348, 19);
+            this.dgvAlbums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvAlbums.Name = "dgvAlbums";
+            this.dgvAlbums.RowHeadersWidth = 62;
+            this.dgvAlbums.Size = new System.Drawing.Size(915, 370);
+            this.dgvAlbums.TabIndex = 0;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(489, 538);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(147, 66);
-            btnAdd.TabIndex = 1;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
+            this.btnAdd.Location = new System.Drawing.Point(440, 430);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(132, 53);
+            this.btnAdd.TabIndex = 1;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(738, 538);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(147, 66);
-            btnUpdate.TabIndex = 1;
-            btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
-            btnUpdate.Click += btnUpdate_Click;
+            this.btnUpdate.Location = new System.Drawing.Point(664, 430);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(132, 53);
+            this.btnUpdate.TabIndex = 1;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btn_Delete
             // 
-            btn_Delete.Location = new Point(979, 538);
-            btn_Delete.Name = "btn_Delete";
-            btn_Delete.Size = new Size(147, 66);
-            btn_Delete.TabIndex = 1;
-            btn_Delete.Text = "Delete";
-            btn_Delete.UseVisualStyleBackColor = true;
-            btn_Delete.Click += btn_Delete_Click;
+            this.btn_Delete.Location = new System.Drawing.Point(881, 430);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(132, 53);
+            this.btn_Delete.TabIndex = 1;
+            this.btn_Delete.Text = "Delete";
+            this.btn_Delete.UseVisualStyleBackColor = true;
             // 
             // btn_Refresh
             // 
-            btn_Refresh.Location = new Point(1234, 538);
-            btn_Refresh.Name = "btn_Refresh";
-            btn_Refresh.Size = new Size(147, 66);
-            btn_Refresh.TabIndex = 1;
-            btn_Refresh.Text = "Refresh";
-            btn_Refresh.UseVisualStyleBackColor = true;
-            btn_Refresh.Click += btn_Refresh_Click;
+            this.btn_Refresh.Location = new System.Drawing.Point(1111, 430);
+            this.btn_Refresh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Refresh.Name = "btn_Refresh";
+            this.btn_Refresh.Size = new System.Drawing.Size(132, 53);
+            this.btn_Refresh.TabIndex = 1;
+            this.btn_Refresh.Text = "Refresh";
+            this.btn_Refresh.UseVisualStyleBackColor = true;
             // 
             // lblId
             // 
-            lblId.AutoSize = true;
-            lblId.Font = new Font("Segoe UI", 11F);
-            lblId.Location = new Point(33, 52);
-            lblId.Name = "lblId";
-            lblId.Size = new Size(37, 30);
-            lblId.TabIndex = 2;
-            lblId.Text = "Id:";
+            this.lblId.AutoSize = true;
+            this.lblId.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblId.Location = new System.Drawing.Point(31, 77);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(37, 30);
+            this.lblId.TabIndex = 2;
+            this.lblId.Text = "Id:";
             // 
             // lblTitle
             // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI", 11F);
-            lblTitle.Location = new Point(33, 118);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(59, 30);
-            lblTitle.TabIndex = 2;
-            lblTitle.Text = "Title:";
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblTitle.Location = new System.Drawing.Point(31, 129);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(59, 30);
+            this.lblTitle.TabIndex = 2;
+            this.lblTitle.Text = "Title:";
             // 
             // lblArtist
             // 
-            lblArtist.AutoSize = true;
-            lblArtist.Font = new Font("Segoe UI", 11F);
-            lblArtist.Location = new Point(33, 181);
-            lblArtist.Name = "lblArtist";
-            lblArtist.Size = new Size(68, 30);
-            lblArtist.TabIndex = 2;
-            lblArtist.Text = "Artist:";
+            this.lblArtist.AutoSize = true;
+            this.lblArtist.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblArtist.Location = new System.Drawing.Point(31, 180);
+            this.lblArtist.Name = "lblArtist";
+            this.lblArtist.Size = new System.Drawing.Size(68, 30);
+            this.lblArtist.TabIndex = 2;
+            this.lblArtist.Text = "Artist:";
             // 
             // lblGenre
             // 
-            lblGenre.AutoSize = true;
-            lblGenre.Font = new Font("Segoe UI", 11F);
-            lblGenre.Location = new Point(33, 255);
-            lblGenre.Name = "lblGenre";
-            lblGenre.Size = new Size(77, 30);
-            lblGenre.TabIndex = 2;
-            lblGenre.Text = "Genre:";
+            this.lblGenre.AutoSize = true;
+            this.lblGenre.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblGenre.Location = new System.Drawing.Point(31, 239);
+            this.lblGenre.Name = "lblGenre";
+            this.lblGenre.Size = new System.Drawing.Size(77, 30);
+            this.lblGenre.TabIndex = 2;
+            this.lblGenre.Text = "Genre:";
             // 
             // lblYear
             // 
-            lblYear.AutoSize = true;
-            lblYear.Font = new Font("Segoe UI", 11F);
-            lblYear.Location = new Point(33, 335);
-            lblYear.Name = "lblYear";
-            lblYear.Size = new Size(59, 30);
-            lblYear.TabIndex = 2;
-            lblYear.Text = "Year:";
+            this.lblYear.AutoSize = true;
+            this.lblYear.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblYear.Location = new System.Drawing.Point(31, 303);
+            this.lblYear.Name = "lblYear";
+            this.lblYear.Size = new System.Drawing.Size(59, 30);
+            this.lblYear.TabIndex = 2;
+            this.lblYear.Text = "Year:";
             // 
             // txtId
             // 
-            txtId.Location = new Point(199, 51);
-            txtId.Name = "txtId";
-            txtId.Size = new Size(150, 31);
-            txtId.TabIndex = 3;
+            this.txtId.Location = new System.Drawing.Point(180, 76);
+            this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(135, 26);
+            this.txtId.TabIndex = 3;
             // 
             // txtTitle
             // 
-            txtTitle.Location = new Point(199, 117);
-            txtTitle.Name = "txtTitle";
-            txtTitle.Size = new Size(150, 31);
-            txtTitle.TabIndex = 3;
+            this.txtTitle.Location = new System.Drawing.Point(180, 129);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(135, 26);
+            this.txtTitle.TabIndex = 3;
             // 
             // txtArtist
             // 
-            txtArtist.Location = new Point(199, 180);
-            txtArtist.Name = "txtArtist";
-            txtArtist.Size = new Size(150, 31);
-            txtArtist.TabIndex = 3;
+            this.txtArtist.Location = new System.Drawing.Point(180, 179);
+            this.txtArtist.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtArtist.Name = "txtArtist";
+            this.txtArtist.Size = new System.Drawing.Size(135, 26);
+            this.txtArtist.TabIndex = 3;
             // 
             // txtGenre
             // 
-            txtGenre.Location = new Point(199, 254);
-            txtGenre.Name = "txtGenre";
-            txtGenre.Size = new Size(150, 31);
-            txtGenre.TabIndex = 3;
+            this.txtGenre.Location = new System.Drawing.Point(180, 238);
+            this.txtGenre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGenre.Name = "txtGenre";
+            this.txtGenre.Size = new System.Drawing.Size(135, 26);
+            this.txtGenre.TabIndex = 3;
             // 
             // txtYear
             // 
-            txtYear.Location = new Point(199, 334);
-            txtYear.Name = "txtYear";
-            txtYear.Size = new Size(150, 31);
-            txtYear.TabIndex = 3;
+            this.txtYear.Location = new System.Drawing.Point(180, 302);
+            this.txtYear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtYear.Name = "txtYear";
+            this.txtYear.Size = new System.Drawing.Size(135, 26);
+            this.txtYear.TabIndex = 3;
             // 
             // chkAvailable
             // 
-            chkAvailable.AutoSize = true;
-            chkAvailable.Font = new Font("Segoe UI", 10F);
-            chkAvailable.Location = new Point(132, 418);
-            chkAvailable.Name = "chkAvailable";
-            chkAvailable.Size = new Size(118, 32);
-            chkAvailable.TabIndex = 4;
-            chkAvailable.Text = "Available";
-            chkAvailable.UseVisualStyleBackColor = true;
+            this.chkAvailable.AutoSize = true;
+            this.chkAvailable.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.chkAvailable.Location = new System.Drawing.Point(120, 369);
+            this.chkAvailable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkAvailable.Name = "chkAvailable";
+            this.chkAvailable.Size = new System.Drawing.Size(118, 32);
+            this.chkAvailable.TabIndex = 4;
+            this.chkAvailable.Text = "Available";
+            this.chkAvailable.UseVisualStyleBackColor = true;
             // 
             // lblStatus
             // 
-            lblStatus.AutoSize = true;
-            lblStatus.Font = new Font("Segoe UI", 11F);
-            lblStatus.Location = new Point(56, 515);
-            lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(75, 30);
-            lblStatus.TabIndex = 5;
-            lblStatus.Text = "Status:";
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblStatus.Location = new System.Drawing.Point(50, 412);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(75, 30);
+            this.lblStatus.TabIndex = 5;
+            this.lblStatus.Text = "Status:";
+            // 
+            // button_Return
+            // 
+            this.button_Return.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button_Return.Location = new System.Drawing.Point(13, 19);
+            this.button_Return.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_Return.Name = "button_Return";
+            this.button_Return.Size = new System.Drawing.Size(58, 55);
+            this.button_Return.TabIndex = 51;
+            this.button_Return.Text = "←";
+            this.button_Return.UseVisualStyleBackColor = true;
+            this.button_Return.Click += new System.EventHandler(this.button_Return_Click);
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1466, 677);
-            Controls.Add(lblStatus);
-            Controls.Add(chkAvailable);
-            Controls.Add(txtYear);
-            Controls.Add(txtGenre);
-            Controls.Add(txtArtist);
-            Controls.Add(txtTitle);
-            Controls.Add(txtId);
-            Controls.Add(lblYear);
-            Controls.Add(lblGenre);
-            Controls.Add(lblArtist);
-            Controls.Add(lblTitle);
-            Controls.Add(lblId);
-            Controls.Add(btn_Refresh);
-            Controls.Add(btn_Delete);
-            Controls.Add(btnUpdate);
-            Controls.Add(btnAdd);
-            Controls.Add(dgvAlbums);
-            Name = "MainForm";
-            Text = "MainForm";
-            ((System.ComponentModel.ISupportInitialize)dgvAlbums).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1319, 542);
+            this.Controls.Add(this.button_Return);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.chkAvailable);
+            this.Controls.Add(this.txtYear);
+            this.Controls.Add(this.txtGenre);
+            this.Controls.Add(this.txtArtist);
+            this.Controls.Add(this.txtTitle);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblYear);
+            this.Controls.Add(this.lblGenre);
+            this.Controls.Add(this.lblArtist);
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.lblId);
+            this.Controls.Add(this.btn_Refresh);
+            this.Controls.Add(this.btn_Delete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.dgvAlbums);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "MainForm";
+            this.Text = "MainForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlbums)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -255,5 +277,6 @@ namespace AlbumInventoryClient
         private TextBox txtYear;
         private CheckBox chkAvailable;
         private Label lblStatus;
+        private Button button_Return;
     }
 }

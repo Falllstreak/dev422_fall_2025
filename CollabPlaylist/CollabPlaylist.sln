@@ -14,6 +14,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumInventoryServer", "Alb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumInventoryClient", "AlbumInventoryClient\AlbumInventoryClient.csproj", "{CC32592A-49E1-4129-9DAE-4C761FCB2978}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicAlbumManagement", "..\..\..\MusicRentalManagement.sol\MusicAlbumManagement\MusicAlbumManagement.csproj", "{93D41564-5E15-D916-7402-97CD0A6C3EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRentalGUI", "..\..\..\MusicRentalManagement.sol\MusicRentalGUI\MusicRentalGUI.csproj", "{BDED14E0-12D5-47ED-8388-ECCDC6A02E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalService", "..\..\..\MusicRentalManagement.sol\RentalService\RentalService.csproj", "{4D3C8671-8631-C330-101E-598FCFDD0340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,18 @@ Global
 		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D41564-5E15-D916-7402-97CD0A6C3EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D41564-5E15-D916-7402-97CD0A6C3EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D41564-5E15-D916-7402-97CD0A6C3EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D41564-5E15-D916-7402-97CD0A6C3EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDED14E0-12D5-47ED-8388-ECCDC6A02E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDED14E0-12D5-47ED-8388-ECCDC6A02E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDED14E0-12D5-47ED-8388-ECCDC6A02E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDED14E0-12D5-47ED-8388-ECCDC6A02E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3C8671-8631-C330-101E-598FCFDD0340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3C8671-8631-C330-101E-598FCFDD0340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3C8671-8631-C330-101E-598FCFDD0340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3C8671-8631-C330-101E-598FCFDD0340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

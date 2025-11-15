@@ -150,6 +150,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\MusicRentalManagement.sol\MusicRentalGUI\MusicRentalGUI.csproj">
+      <Project>{bded14e0-12d5-47ed-8388-eccdc6a02e0c}</Project>
+      <Name>MusicRentalGUI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AlbumInventoryClient\AlbumInventoryClient.csproj">
       <Project>{cc32592a-49e1-4129-9dae-4c761fcb2978}</Project>
       <Name>AlbumInventoryClient</Name>

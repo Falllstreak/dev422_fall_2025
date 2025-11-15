@@ -28,23 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_PlaylistBuilder = new System.Windows.Forms.Button();
             this.label_Title1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAlbumInventoryMicroservice = new System.Windows.Forms.Button();
+            this.button_rentAnAlbum = new System.Windows.Forms.Button();
+            this.button_EventTicketing = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button_PlaylistBuilder
-            // 
-            this.button_PlaylistBuilder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.button_PlaylistBuilder.Location = new System.Drawing.Point(718, 200);
-            this.button_PlaylistBuilder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button_PlaylistBuilder.Name = "button_PlaylistBuilder";
-            this.button_PlaylistBuilder.Size = new System.Drawing.Size(296, 125);
-            this.button_PlaylistBuilder.TabIndex = 0;
-            this.button_PlaylistBuilder.Text = "Collaborative Playlist Builder";
-            this.button_PlaylistBuilder.UseVisualStyleBackColor = true;
             // 
             // label_Title1
             // 
@@ -56,17 +45,6 @@
             this.label_Title1.Size = new System.Drawing.Size(187, 47);
             this.label_Title1.TabIndex = 1;
             this.label_Title1.Text = "VibeHive";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.button1.Location = new System.Drawing.Point(718, 200);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(296, 125);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Collaborative Playlist Builder";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -82,7 +60,7 @@
             // btnAlbumInventoryMicroservice
             // 
             this.btnAlbumInventoryMicroservice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.btnAlbumInventoryMicroservice.Location = new System.Drawing.Point(718, 403);
+            this.btnAlbumInventoryMicroservice.Location = new System.Drawing.Point(804, 122);
             this.btnAlbumInventoryMicroservice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAlbumInventoryMicroservice.Name = "btnAlbumInventoryMicroservice";
             this.btnAlbumInventoryMicroservice.Size = new System.Drawing.Size(296, 125);
@@ -91,31 +69,55 @@
             this.btnAlbumInventoryMicroservice.UseVisualStyleBackColor = true;
             this.btnAlbumInventoryMicroservice.Click += new System.EventHandler(this.btnAlbumInventoryMicroservice_Click);
             // 
+            // button_rentAnAlbum
+            // 
+            this.button_rentAnAlbum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.button_rentAnAlbum.Location = new System.Drawing.Point(41, 122);
+            this.button_rentAnAlbum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_rentAnAlbum.Name = "button_rentAnAlbum";
+            this.button_rentAnAlbum.Size = new System.Drawing.Size(296, 125);
+            this.button_rentAnAlbum.TabIndex = 2;
+            this.button_rentAnAlbum.Text = "Rent an Album";
+            this.button_rentAnAlbum.UseVisualStyleBackColor = true;
+            this.button_rentAnAlbum.Click += new System.EventHandler(this.button_rentAnAlbum_Click);
+            // 
+            // button_EventTicketing
+            // 
+            this.button_EventTicketing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.button_EventTicketing.Location = new System.Drawing.Point(440, 122);
+            this.button_EventTicketing.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_EventTicketing.Name = "button_EventTicketing";
+            this.button_EventTicketing.Size = new System.Drawing.Size(296, 125);
+            this.button_EventTicketing.TabIndex = 3;
+            this.button_EventTicketing.Text = "Collaborative Playlist Builder";
+            this.button_EventTicketing.UseVisualStyleBackColor = true;
+            this.button_EventTicketing.Click += new System.EventHandler(this.button_EventTicketing_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1200, 307);
+            this.Controls.Add(this.button_EventTicketing);
+            this.Controls.Add(this.button_rentAnAlbum);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label_Title1);
             this.Controls.Add(this.btnAlbumInventoryMicroservice);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button_PlaylistBuilder);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button_PlaylistBuilder;
         private System.Windows.Forms.Label label_Title1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAlbumInventoryMicroservice;
+        private System.Windows.Forms.Button button_rentAnAlbum;
+        private System.Windows.Forms.Button button_EventTicketing;
     }
 }
 

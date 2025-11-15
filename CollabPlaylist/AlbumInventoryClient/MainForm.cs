@@ -157,5 +157,10 @@ namespace AlbumInventoryClient
             txtYear.Text = album.Year.ToString();
             chkAvailable.Checked = album.Available;
         }
+
+        private void button_Return_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

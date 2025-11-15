@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jenny\\OneDrive\\Desktop\\Dev 422\\midterm\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj": {}
+    "C:\\Users\\Viktoriya\\Desktop\\vika\\school\\DEV422\\midterm project\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jenny\\OneDrive\\Desktop\\Dev 422\\midterm\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj": {
+    "C:\\Users\\Viktoriya\\Desktop\\vika\\school\\DEV422\\midterm project\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jenny\\OneDrive\\Desktop\\Dev 422\\midterm\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj",
+        "projectUniqueName": "C:\\Users\\Viktoriya\\Desktop\\vika\\school\\DEV422\\midterm project\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj",
         "projectName": "AlbumInventoryClient",
-        "projectPath": "C:\\Users\\jenny\\OneDrive\\Desktop\\Dev 422\\midterm\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj",
-        "packagesPath": "C:\\Users\\jenny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jenny\\OneDrive\\Desktop\\Dev 422\\midterm\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\obj\\",
+        "projectPath": "C:\\Users\\Viktoriya\\Desktop\\vika\\school\\DEV422\\midterm project\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\AlbumInventoryClient.csproj",
+        "packagesPath": "C:\\Users\\Viktoriya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Viktoriya\\Desktop\\vika\\school\\DEV422\\midterm project\\dev422_fall_2025\\CollabPlaylist\\AlbumInventoryClient\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jenny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viktoriya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
