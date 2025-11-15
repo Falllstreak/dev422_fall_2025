@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlbumInventoryServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b4e2151bc500f57c16d2e2cab8c74dabd6a00d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+932cd1959792c176be4465492681f5ae53e9464d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlbumInventoryServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlbumInventoryServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

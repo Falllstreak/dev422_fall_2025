@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CollabPlaylistAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b4e2151bc500f57c16d2e2cab8c74dabd6a00d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3a9a16c4917a49a3b7b4dcfc2a62bc07a965a9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CollabPlaylistAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CollabPlaylistAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
