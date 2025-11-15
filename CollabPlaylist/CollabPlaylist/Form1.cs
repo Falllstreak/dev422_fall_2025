@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AlbumInventoryClient;
+
 
 namespace CollabPlaylist
 {
@@ -17,11 +19,11 @@ namespace CollabPlaylist
             InitializeComponent();
         }
 
-        private void button_EventTicketing_Click(object sender, EventArgs e)
+        private void btnAlbumInventoryMicroservice_Click(object sender, EventArgs e)
         {
-            Form2_PlaylistBuilder mainForm = new Form2_PlaylistBuilder();
-            mainForm.Show();
-            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.ShowDialog();
+
         }
     }
 }

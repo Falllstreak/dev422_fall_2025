@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "P2hRAFYfJr+blqQt2vNgtaGTji1OvKB3nxs7bSauNsI=",
+  "Hash": "fLCIbvgMCvOkEH3hDqctOy0MH8eOhjtMeGsekkXEA3Y=",
   "Source": "CollabPlaylistAPI",
   "BasePath": "_content/CollabPlaylistAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-AlbumInventoryServer",
+      "appliesTo": "CollabPlaylist/AlbumInventoryServer/",
+      "type": "launch"
+    }
+  ]
+}

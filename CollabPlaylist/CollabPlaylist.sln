@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabPlaylist", "CollabPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabPlaylistAPI", "CollabPlaylistAPI\CollabPlaylistAPI.csproj", "{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumInventoryServer", "AlbumInventoryServer\AlbumInventoryServer.csproj", "{28DA1BED-7433-4520-9DC0-2EF43CFC000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumInventoryClient", "AlbumInventoryClient\AlbumInventoryClient.csproj", "{CC32592A-49E1-4129-9DAE-4C761FCB2978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DA1BED-7433-4520-9DC0-2EF43CFC000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DA1BED-7433-4520-9DC0-2EF43CFC000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DA1BED-7433-4520-9DC0-2EF43CFC000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DA1BED-7433-4520-9DC0-2EF43CFC000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC32592A-49E1-4129-9DAE-4C761FCB2978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
