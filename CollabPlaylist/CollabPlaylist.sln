@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabPlaylist", "CollabPlaylist\CollabPlaylist.csproj", "{78D2AC3F-99E0-43DF-BBBA-8DC997151F0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5} = {75AD6757-0C3A-4EF3-858F-221B7A2D93A5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabPlaylistAPI", "CollabPlaylistAPI\CollabPlaylistAPI.csproj", "{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D2AC3F-99E0-43DF-BBBA-8DC997151F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D2AC3F-99E0-43DF-BBBA-8DC997151F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D2AC3F-99E0-43DF-BBBA-8DC997151F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D2AC3F-99E0-43DF-BBBA-8DC997151F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AD6757-0C3A-4EF3-858F-221B7A2D93A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3D4744-0ECE-4B26-ABE0-5DAE592392AC}
+	EndGlobalSection
+EndGlobal
